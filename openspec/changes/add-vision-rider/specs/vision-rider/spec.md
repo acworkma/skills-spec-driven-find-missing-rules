@@ -1,5 +1,21 @@
 ## ADDED Requirements
 
+### Requirement: Partner eligibility file layout
+The eligibility file sent to Fabrikam Vision Services MUST conform to the file
+layout specified by Fabrikam Vision Services.
+
+Source: Gap 2; new product-owner clarification.
+
+#### Scenario: File matches the partner's layout
+- **GIVEN** Fabrikam Vision Services has specified its eligibility file layout
+- **WHEN** an eligibility file is prepared for delivery
+- **THEN** the file conforms to that layout
+
+#### Scenario: File does not match the partner's layout
+- **GIVEN** an eligibility file does not conform to Fabrikam Vision Services' specified layout
+- **WHEN** delivery is attempted
+- **THEN** the file is not sent
+
 ### Requirement: Setup lead time
 A vision rider MUST take effect on the first day of a month at least 30 calendar
 days after its configuration is approved; a shorter start MUST have approval
