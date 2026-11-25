@@ -15,7 +15,7 @@ A **retro-spec** writes the spec a past project should have had, then compares i
 
 In 2025, build ran in weeks 1 to 8, acceptance testing in weeks 9 to 11, and the first groups went live in week 12. Six of the eight gaps surfaced in testing or after go-live. The costs in this step are illustrative, not measured.
 
-<img width="800" alt="Timeline of the 2025 vision rider project: build in weeks 1 to 8, acceptance testing in weeks 9 to 11, live from week 12. Eight late gaps, with the week each was found and the move that would catch it: 1, no named approver, week 6, Quality checklist. 2, partner's file layout, week 7, Plan. 3, dependents, week 9, Quality checklist. 4, new-hire waiting period, week 10, Clarify. 5, lead time, week 12, Clarify. 6, administrator readiness, week 12, Make it testable. 7, group ends before go-live, week 14, Make it testable. 8, mid-year additions, week 15, Clarify. Footer: 6 of 8 surfaced in testing or after go-live. Clarify 3, Make it testable 2, Quality checklist 2, Plan 1" src="../images/late-gaps.png">
+<img width="800" alt="Timeline of the 2025 vision rider project: build in weeks 1 to 8, acceptance testing in weeks 9 to 11, live from week 12. Eight late gaps, with the week each was found and the move that would catch it: 1, no named approver, week 6, Quality checklist. 2, partner's file layout, week 7, Plan. 3, dependents, week 9, Quality checklist. 4, new-hire waiting period, week 10, Clarify. 5, lead time, week 12, Clarify. 6, administrator readiness, week 12, Make it testable. 7, group ends before go-live, week 14, Make it testable. 8, mid-year additions, week 15, Clarify. Footer: 6 of 8 surfaced in testing or after go-live. Clarify 3, Make it testable 2, Quality checklist 2, Plan 1" src="https://github.com/acworkma/skills-spec-driven-find-missing-rules/blob/main/.github/images/late-gaps.png?raw=true">
 
 ### ⌨️ Activity 1: Compare your spec with the gap log
 
@@ -96,7 +96,7 @@ In 2025, build ran in weeks 1 to 8, acceptance testing in weeks 9 to 11, and the
 
    > 💡 **Tip:** If a **Compare & pull request** banner appears for `vision-retro`, you can use it instead.
 
-   <img width="600" alt="A repository page with a yellow banner about a branch with recent pushes and a green Compare and pull request button. The branch name in the screenshot is an example; yours is vision-retro." src="../images/compare-pull-request.png">
+   <img width="600" alt="A repository page with a yellow banner about a branch with recent pushes and a green Compare and pull request button. The branch name in the screenshot is an example; yours is vision-retro." src="https://github.com/acworkma/skills-spec-driven-find-missing-rules/blob/main/.github/images/compare-pull-request.png?raw=true">
 
 1. Give it a short title, such as `Retro-spec for the vision rider`, and create the pull request.
 

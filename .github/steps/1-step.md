@@ -1,6 +1,6 @@
 ## Step 1: Question the epic
 
-<img width="800" alt="Exercise 2 of 4 of the Spec-Driven Delivery workshop: Find the Missing Rules Before You Build. Question a thin epic, then write the missing rules as a valid OpenSpec change. Tools: Codespaces, GitHub Copilot and OpenSpec. Focus of this exercise: Intent, Requirement and Scenario." src="../images/banner.png">
+<img width="800" alt="Exercise 2 of 4 of the Spec-Driven Delivery workshop: Find the Missing Rules Before You Build. Question a thin epic, then write the missing rules as a valid OpenSpec change. Tools: Codespaces, GitHub Copilot and OpenSpec. Focus of this exercise: Intent, Requirement and Scenario." src="https://github.com/acworkma/skills-spec-driven-find-missing-rules/blob/main/.github/images/banner.png?raw=true">
 
 Welcome to the Contoso Health Plan delivery team, @{{ login }}! :wave: In 2025, the team built a vision rider for employer groups from a five-story epic. Eight rules surfaced late, most of them in acceptance testing or after go-live. Your team starts a similar rider next quarter, so first you'll replay the 2025 epic: which questions would have found the missing rules before anyone built anything?
 
@@ -8,7 +8,7 @@ Welcome to the Contoso Health Plan delivery team, @{{ login }}! :wave: In 2025, 
 
 A user story names who wants what and why, but it rarely states the **rules**: the decisions a system and its people must follow, such as who approves, by when, and what happens when something goes wrong. Missing rules hide in five places, so read every story through five lenses. A question asked before build is the cheapest way to find a rule. The same rule found in acceptance testing or after go-live costs rework, and sometimes member calls.
 
-<img width="800" alt="Five lenses for missing rules. Who decides: who reviews, who approves, and who can grant an exception. When: dates, lead times, waiting periods and deadlines. Who else is affected: family members, partners, other teams and other systems. What proves it is ready: tests, sign-offs and acceptance by a partner. What stops or undoes it: cancellations, terminations and reversals" src="../images/question-lenses.png">
+<img width="800" alt="Five lenses for missing rules. Who decides: who reviews, who approves, and who can grant an exception. When: dates, lead times, waiting periods and deadlines. Who else is affected: family members, partners, other teams and other systems. What proves it is ready: tests, sign-offs and acceptance by a partner. What stops or undoes it: cancellations, terminations and reversals" src="https://github.com/acworkma/skills-spec-driven-find-missing-rules/blob/main/.github/images/question-lenses.png?raw=true">
 
 ### ⌨️ Activity 1: Open your codespace
 
@@ -24,7 +24,7 @@ Your copy of this repository comes with a ready-made [codespace](https://docs.gi
 
    > ⏳ **Wait:** You are ready when the bottom-left corner of the editor shows **Codespaces** followed by your codespace's name, and the epic, `retro/original-epic.md`, is open.
 
-   <img width="400" alt="The bottom-left corner of the editor's Status Bar showing Codespaces followed by a generated codespace name" src="../images/codespaces-status.png">
+   <img width="400" alt="The bottom-left corner of the editor's Status Bar showing Codespaces followed by a generated codespace name" src="https://github.com/acworkma/skills-spec-driven-find-missing-rules/blob/main/.github/images/codespaces-status.png?raw=true">
 
 1. Open a terminal with `` Ctrl+` `` (also on Mac), or from the menu (☰) at the top left with **Terminal** > **New Terminal**. Then create a branch for your work.
 
@@ -39,7 +39,7 @@ Your copy of this repository comes with a ready-made [codespace](https://docs.gi
 
 - **No terminal is visible:** In the panel at the bottom of the editor, select the **TERMINAL** tab. If there is no panel, press `` Ctrl+` `` (also on Mac).
 
-  <img width="460" alt="The editor's bottom panel with the TERMINAL tab selected, next to PROBLEMS, OUTPUT, DEBUG CONSOLE and PORTS" src="../images/terminal-tab.png">
+  <img width="460" alt="The editor's bottom panel with the TERMINAL tab selected, next to PROBLEMS, OUTPUT, DEBUG CONSOLE and PORTS" src="https://github.com/acworkma/skills-spec-driven-find-missing-rules/blob/main/.github/images/terminal-tab.png?raw=true">
 
 - **The codespace opened the original exercise:** Close that tab and use the button above, which points to your copy. You can also start one from your repository page: **Code** > **Codespaces** > **Create codespace on main**.
 
@@ -61,7 +61,7 @@ Your copy of this repository comes with a ready-made [codespace](https://docs.gi
 
 1. Open Copilot Chat: select the chat icon at the top of the editor, or press `Ctrl+Alt+I` (`Ctrl+Cmd+I` on Mac). If the chat box shows a mode picker, choose **Ask**, so Copilot answers without editing files.
 
-   <img width="320" alt="The Copilot Chat mode picker open above the chat box, with Ask highlighted between Agent and Plan" src="../images/copilot-ask-mode.png">
+   <img width="320" alt="The Copilot Chat mode picker open above the chat box, with Ask highlighted between Agent and Plan" src="https://github.com/acworkma/skills-spec-driven-find-missing-rules/blob/main/.github/images/copilot-ask-mode.png?raw=true">
 
 1. Ask Copilot for the questions you haven't thought of yet. The first sentence keeps it read-only.
 
