@@ -1,0 +1,50 @@
+## Review
+
+_Congratulations, you've completed this exercise and learned how to question an epic, turn the answers into testable requirements with exception scenarios, and measure which late gaps a spec would have caught!_
+
+<img src="https://octodex.github.com/images/waldocat.png" alt="Waldocat celebrating" width="200" align="right">
+
+Here's a recap of what you accomplished:
+
+- You questioned a thin epic through five lenses and kept only the questions that ask for a rule.
+- You turned the product owner's answers into a valid OpenSpec change, reviewed Copilot's draft against the answers, and kept only rules you could trace.
+- You measured your spec against eight late gaps, closed one you missed, and shared the result in a pull request.
+
+Your pull request stays open for your team to read. You can merge it or close it; the exercise is complete either way.
+
+### Check your understanding
+
+Try to answer from memory before you peek. Recalling is what makes it stick.
+
+<details>
+<summary>Four gaps surfaced after go-live. Which lenses would have found them?</summary><br/>
+
+**When?** would have found the lead time and mid-year additions, **What proves it is ready?** administrator readiness, and **What stops or undoes it?** the group that ended before go-live. Their rules only show up when something goes wrong, so they reach members unless someone asks first.
+
+</details>
+
+<details>
+<summary>Your change passes <code>openspec validate --strict</code>. Does that prove each rule is right?</summary><br/>
+
+No. Strict validation checks the format: delta headings, MUST or SHALL, and at least one scenario per requirement. Only people can check that each rule matches what the product owner decided.
+
+</details>
+
+<details>
+<summary>Copilot's draft includes a plausible rule that no answer states. What do you do?</summary><br/>
+
+Delete it, or turn it into a question for the product owner. A rule nobody decided is a guess, even when it reads well.
+
+</details>
+
+### Take it to your work
+
+Pick an epic in your team's backlog before its next refinement. Write five questions, one for each lens, and bring them to the product owner.
+
+### What's next?
+
+<img width="800" alt="Workshop map, Spec-driven delivery workshop: four exercises, one delivery loop. 1, Trace the loop: intent to evidence. 2, Find the missing rules: before you build. 3, Deliver a behavior: test-first, with Copilot. 4, Draft your first spec: capstone. Exercise 2 is highlighted: You are here." src="../images/workshop-map.png">
+
+- Continue the workshop with exercise 3, [Deliver an Approved Behavior with Copilot](https://github.com/samueltauil/spec-driven-deliver-a-behavior), where you build one approved behavior from its spec and scenarios.
+- Read [Writing good specs](https://github.com/Fission-AI/OpenSpec/blob/main/docs/writing-specs.md) in the OpenSpec documentation to learn more about requirements and scenarios.
+- Explore more [GitHub Skills exercises](https://learn.github.com/skills).
