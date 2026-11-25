@@ -10,3 +10,8 @@
 | 6 | Administrator readiness | 12 | Make it testable | Go-live prerequisites |
 | 7 | Group ends before go-live | 14 | Make it testable | Coverage ending before go-live |
 | 8 | Mid-year additions | 15 | Clarify | Mid-year allowances and frequency limits |
+
+## Added after the retro
+
+- **Gap number:** 2
+- **Requirement:** Partner eligibility file layout
